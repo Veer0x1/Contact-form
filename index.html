@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Form</title>
+
+  <!-- fontawesome link -->
+  <script src="https://kit.fontawesome.com/6b42890fd4.js" crossorigin="anonymous"></script>
+
+  <!-- css link -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- firebase link -->
+  <script type="module" src="index.js"></script>
+</head>
+
+<body>
+  <div class="container">
+	<div class="header">
+		<h2>Contact Form</h2>
+	</div>
+	<form id="form" class="form">
+		<div class="form-control">
+			<label for="username">Username</label>
+			<input type="text" placeholder="Balveer Singh Rao" id="username" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="email">Email</label>
+			<input type="email" placeholder="balveer123@domain.com" id="email" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="phone-number">Phone number</label>
+			<input type="text" placeholder="+91-8741051671" id="number"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="subject">Subject</label>
+			<input type="text" placeholder="subject" id="subject"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+    <div class="form-control">
+			<label for="message">Message</label>
+			<input type="text" placeholder="Message" id="message"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<button type="submit">Submit</button>
+	</form>
+</div>
+
+
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
